@@ -1,0 +1,740 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(img/s1.jpg);
+    /* background-size: cover; */
+    background-position: center center;
+}
+
+
+
+.Icons {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: solid rgba(43, 30, 30, 0.5) 1px;
+}
+
+/* .headerContent {
+    background-color: rgba(88, 72, 72, 0.105);
+    color: white !important;
+} */
+
+
+.logo-text {
+    font-size: larger;
+    font-weight: 900;
+    color: rgb(88, 30, 23) !important;
+}
+
+.Icons:hover {
+    background-color: #03bcf4;
+}
+
+.nav-item:hover {
+    color: #fff;
+    text-shadow: 0 10px 10px #03bcf4
+}
+
+.anim-home {
+    /* font-size: 6em; */
+    /* letter-spacing: 15px; */
+    color: #0e3742;
+    text-transform: uppercase;
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0008); */
+    /* line-height: 0.9em; */
+    outline: none;
+    animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+
+    0%,
+    18%,
+    20%,
+    50.1%,
+    60%,
+    65.1%,
+    80%,
+    90%,
+    92% {
+        color: #0e3742;
+        text-shadow: none;
+    }
+
+    18.1%,
+    20.1%,
+    30%,
+    50%,
+    60.1%,
+    65%,
+    80.1%,
+    90%,
+    92.1%,
+    100% {
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4,
+            0 0 20px #03bcf4,
+            0 0 40px #03bcf4,
+            0 0 80px #03bcf4,
+            0 0 160px #03bcf4;
+
+
+
+    }
+}
+
+.about {
+    padding-top: 15%;
+    padding-left: 5%;
+    color: #fff;
+
+}
+
+h1 {
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.h2pro {
+    color: rgb(88, 30, 23);
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+h5 {
+    color: #fff;
+
+}
+
+h5::after {
+    content: "|";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+}
+
+@keyframes typing {
+    0% {
+        content: "|";
+    }
+
+    2% {
+        content: "|E";
+    }
+
+    4% {
+        content: "E|g";
+    }
+
+    6% {
+        content: "Eg|y";
+    }
+
+    10% {
+        content: "Egy|p";
+    }
+
+    12% {
+        content: "Egyp|t";
+    }
+
+    14% {
+        content: "Egyp|";
+    }
+
+    18% {
+        content: "Egy";
+    }
+
+    22% {
+        content: "Eg|";
+    }
+
+    24% {
+        content: "E|";
+    }
+
+    26% {
+        content: "|";
+    }
+
+    28% {
+        content: "|M";
+    }
+
+    30% {
+        content: "M|o";
+    }
+
+    32% {
+        content: "Mo|r";
+    }
+
+    34% {
+        content: "Mor|o";
+    }
+
+    36% {
+        content: "Moro|c";
+    }
+
+    38% {
+        content: "Moroc|c";
+    }
+
+    40% {
+        content: "Morocc|o";
+    }
+
+    42% {
+        content: "Morocc|";
+    }
+
+    44% {
+        content: "Moroc|";
+    }
+
+    46% {
+        content: "Moro|";
+    }
+
+    48% {
+        content: "Mor|";
+    }
+
+    50% {
+        content: "Mo|";
+    }
+
+    52% {
+        content: "M|";
+    }
+
+    54% {
+        content: "|";
+    }
+
+    55% {
+        content: "|D";
+    }
+
+    57% {
+        content: "D|u";
+    }
+
+    60% {
+        content: "Du|b";
+    }
+
+    62% {
+        content: "Dub|a";
+    }
+
+    64% {
+        content: "Duba|i";
+    }
+
+    68% {
+        content: "Duba|";
+    }
+
+    70% {
+        content: "Dub|";
+    }
+
+    72% {
+        content: "Du|";
+    }
+
+    75% {
+        content: "D|";
+    }
+
+    77% {
+        content: "|";
+    }
+
+    80% {
+        content: "|J";
+    }
+
+    82% {
+        content: "J|o";
+    }
+
+    84% {
+        content: "Jo|r";
+    }
+
+    86% {
+        content: "Jor|d";
+    }
+
+    88% {
+        content: "Jord|a";
+    }
+
+    90% {
+        content: "Jorda|n";
+    }
+
+    92% {
+        content: "Jorda|";
+    }
+
+    94% {
+        content: "Jord|";
+    }
+
+    96% {
+        content: "Jor|";
+    }
+
+    98% {
+        content: "Jo|";
+    }
+
+    99% {
+        content: "J|";
+    }
+
+    100% {
+        content: "|";
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ************ */
+/* .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+.about-amin {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 10%;
+}
+
+.about-amin h2 {
+    color: #fff;
+    font-size: 5em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 120px #03bcf4;
+
+}
+
+.lightBar {
+    position: absolute;
+    left: 0%;
+    width: 10px;
+    height: 15%;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 2;
+    box-shadow: 0 0 10px #03bcff,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 120px #03bcf4;
+    animation: animatelightBar 5s linear infinite;
+}
+
+@keyframes animatelightBar {
+
+    0%,
+    5% {
+        transform: scaleY(0) translateX(0);
+    }
+
+    10% {
+        transform: scaleY(1) translateX(0);
+    }
+
+    90% {
+        transform: scaleY(1) translateX(calc(500px - 10px));
+    }
+
+    95%,
+    100% {
+        transform: scaleY(0) translateX(calc(500px - 10px));
+    }
+}
+
+.toplayer {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 40%;
+    background: #000;
+    animation: animatetoplayer 10s linear infinite;
+
+}
+
+@keyframes animatetoplayer {
+
+    0%,
+    2.5% {
+        transform: translateX(0);
+    }
+
+    5% {
+        transform: translateX(0);
+    }
+
+    45% {
+        transform: translateX(100%);
+    }
+
+    47.5%,
+    50% {
+        transform: translateX(100%);
+    }
+
+    50.001%,
+    52.5% {
+        transform: translateX(-100);
+    }
+
+    55% {
+        transform: translateX(-100);
+    }
+
+    95% {
+        transform: translateX(0%);
+    }
+
+    97.5%,
+    100% {
+        transform: translateX(0%);
+    }
+
+} */
+.item {
+    /* background-color: #03bcf4; */
+    position: relative;
+    overflow: hidden;
+    height: 50vh;
+    border-radius: 50%;
+}
+
+.item img {
+    width: 100%;
+    /* height: 100%; */
+
+}
+
+.caption {
+    background-color: rgba(78, 66, 66, 0.406);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+    color: #fff;
+    transition: transform 1s, opacity 1s;
+    opacity: 0%;
+    padding-top: 80px;
+}
+
+.caption h3 {
+    padding: 10px;
+    margin-top: 15px;
+    /* background-color: chartreuse; */
+}
+
+.item:hover .caption {
+    transform: scale(10px, 10px);
+    opacity: 1;
+}
+
+.btnn {
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #ffffff;
+    background: #1e1f2100;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.btnn:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #03bcf4;
+}
+
+.menue h1 {
+    color: #fff;
+}
+
+.chifCard {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.cardInner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.chifCard:hover .cardInner {
+
+    transform: rotateY(180deg);
+
+}
+
+
+.cardFront,
+.cardBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: linear-gradient(to bottom right, #000000);
+}
+
+.cardBack {
+    background: linear-gradient(to bottom right, #000000, );
+    color: #fff;
+    transform: rotateY(-180deg);
+}
+
+.chiefLogo img {
+    /* padding-right: 5%; */
+    width: 170px;
+    height: 170px;
+}
+
+.chiefText {
+    padding-left: 35%;
+    padding-top: 4%;
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.chiefText h2 {
+    color: #fff;
+    font-size: 0.6em;
+}
+
+.con0 {
+    position: relative;
+    height: 100%;
+}
+
+.con1 {
+    position: absolute;
+    height: 50%;
+}
+
+.con2 {
+    position: absolute;
+    height: 50%;
+}
+
+.chiefInfo h2 {
+    padding-top: 32%;
+    color: rgb(88, 30, 23);
+    font-weight: 900;
+}
+
+.chiefInfo h4,
+p {
+    font-weight: 100;
+    color: #fff;
+}
+
+.conchf img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.vv {
+    width: 100% !important;
+}
+
+.sec1 video {
+    width: 100%;
+    height: 100%;
+}
+
+.logBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    overflow: hidden;
+}
+
+
+.containerR {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.containerR i {
+    position: absolute;
+    inset: 0;
+    border: 1.5px solid #ffffff;
+    transition: 0.5s;
+}
+
+.containerR i:nth-child(1) {
+    animation: animatee 8s linear infinite;
+}
+
+.containerR i:nth-child(2) {
+    animation: animatee 10s linear infinite;
+}
+
+.containerR i:nth-child(3) {
+    animation: animatee4 20s linear infinite;
+}
+
+.containerR:hover i {
+    border: 6px solid var(--clr);
+    filter: drop-shadow(0 0 20px var(--clr));
+}
+
+@keyframes animatee {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+@keyframes animatee4 {
+    0% {
+        transform: rotate(360deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+.login {
+    position: absolute;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login h2 {
+    font-size: 2em;
+    color: #fff;
+}
+
+.login .inputBox {
+    position: relative;
+    width: 100%;
+
+
+}
+
+.login .inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 12px 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 1.2em;
+    color: #fff;
+    box-shadow: none;
+    outline: none;
+
+}
+
+.login .inputBox input[type="submit"] {
+    width: 100%;
+    background-color: #03bcf4;
+    background: linear-gradient(45deg, #0e3742, #03bcf4);
+    border: none;
+
+}
+
+.login .links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login .links {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
